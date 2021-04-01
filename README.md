@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Zero Footprint React Application Template
+**POWERED BY CREATE-REACT-APP WITH TYPESCRIPT TEMPLATE**
+**INSPIRED BY JHISPTER CLIENT**
+## 	Installed Libraries:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - `MaterialUI`
+ - `Redux`
+ - `Redux-Thunk`
+ - `Redux-Promise`
+ - `React-dom-router`
+ - `React-redux-loading-bar`
+ - `Axios`
+
+## Defined Redux Middlewares
+- `Notification-Middlewares`: Show snackbar notification when occurring any errors to Promise Redux Action.
+- `Logger-middlewares`: Logs Redux actions to console in development mode.
+- `Axios-intercepter`: Modify request headers before sending to server.
 
 ## Available Scripts
 
