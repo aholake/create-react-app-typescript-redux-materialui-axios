@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useSnackbar } from 'notistack';
-import { removeSnackbar } from './notifier.reducer';
 import { IRootState } from '../../shared/reducers';
+import { removeSnackbar } from './redux/notifier.action';
 
 let displayed: any = [];
 
